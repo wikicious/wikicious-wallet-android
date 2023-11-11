@@ -15,7 +15,6 @@ Such approach enables the wallet to operate anywhere and remain censorship-resis
 
 Devices with Android versions 8.1 and above
 
-
 ## License
 
 This wallet is open source and available under the terms of the MIT License.
