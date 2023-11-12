@@ -149,7 +149,7 @@ testUnstoppable() {
 }
 
 case "$appId" in
-  "io.horizontalsystems.bankwallet")
+  "com.wikicious.app")
     testUnstoppable
     ;;
   *)

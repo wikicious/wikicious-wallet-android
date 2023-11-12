@@ -13,12 +13,12 @@ apply plugin: 'kotlin-kapt'
 android {
 
     defaultConfig {
-        applicationId "io.horizontalsystems.bankwallet"
+        applicationId "com.wikicious.app"
         compileSdk compile_sdk_version
         minSdkVersion min_sdk_version
         targetSdkVersion compile_sdk_version
         versionCode 92
-        versionName "0.36.1"
+        versionName "1.0.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         kapt {
@@ -97,6 +97,7 @@ android {
         }
 
         appcenterdebug {
+            applicationIdSuffix ".twa"
             initWith debug
             defaultConfig.versionCode System.getenv("BUILD_NUMBER")?.toInteger() ?: defaultConfig.versionCode
             applicationIdSuffix ".dev.appcenter"
@@ -105,6 +106,7 @@ android {
         }
 
         release {
+            applicationIdSuffix ".twa"
             debuggable false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -138,6 +140,7 @@ android {
         }
 
         appcenterrelease {
+            applicationIdSuffix ".twa"
             initWith release
             defaultConfig.versionCode System.getenv("BUILD_NUMBER")?.toInteger() ?: defaultConfig.versionCode
             applicationIdSuffix ".appcenter"
@@ -166,7 +169,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion '1.4.0'
     }
-    namespace 'io.horizontalsystems.bankwallet'
+    namespace 'com.wikicious.app'
     lint {
         disable 'LogNotTimber'
     }

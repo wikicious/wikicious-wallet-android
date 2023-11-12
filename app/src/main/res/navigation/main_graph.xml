@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.main.MainFragment">
+        android:name="com.wikicious.app.modules.main.MainFragment">
         <deepLink
             app:action=""
             android:id="@+id/deepLink"
@@ -19,405 +19,405 @@
     </fragment>
     <fragment
         android:id="@+id/depositCexFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.depositcex.DepositCexFragment"/>
+        android:name="com.wikicious.app.modules.depositcex.DepositCexFragment"/>
     <fragment
         android:id="@+id/depositCexChooseAssetFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.depositcex.DepositCexChooseAssetFragment"/>
+        android:name="com.wikicious.app.modules.depositcex.DepositCexChooseAssetFragment"/>
     <fragment
         android:id="@+id/wc2SessionFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.session.v2.WC2SessionFragment"/>
+        android:name="com.wikicious.app.modules.walletconnect.session.v2.WC2SessionFragment"/>
     <fragment
         android:id="@+id/wc2RequestFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.request.WC2RequestFragment"/>
+        android:name="com.wikicious.app.modules.walletconnect.request.WC2RequestFragment"/>
     <fragment
         android:id="@+id/sendEvmConfirmationFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.send.evm.confirmation.SendEvmConfirmationFragment"/>
+        android:name="com.wikicious.app.modules.send.evm.confirmation.SendEvmConfirmationFragment"/>
     <fragment
         android:id="@+id/sendEvmSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.send.evm.settings.SendEvmSettingsFragment" />
+        android:name="com.wikicious.app.modules.send.evm.settings.SendEvmSettingsFragment" />
     <fragment
         android:id="@+id/filterCoinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.transactions.FilterCoinFragment" />
+        android:name="com.wikicious.app.modules.transactions.FilterCoinFragment" />
     <fragment
         android:id="@+id/transactionInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.transactionInfo.TransactionInfoFragment" />
+        android:name="com.wikicious.app.modules.transactionInfo.TransactionInfoFragment" />
     <fragment
         android:id="@+id/transactionSpeedUpCancelFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.transactionInfo.options.TransactionSpeedUpCancelFragment"/>
+        android:name="com.wikicious.app.modules.transactionInfo.options.TransactionSpeedUpCancelFragment"/>
     <fragment
         android:id="@+id/manageWalletsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.managewallets.ManageWalletsFragment"/>
+        android:name="com.wikicious.app.modules.managewallets.ManageWalletsFragment"/>
     <fragment
         android:id="@+id/manageAccountsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccounts.ManageAccountsFragment" />
+        android:name="com.wikicious.app.modules.manageaccounts.ManageAccountsFragment" />
     <fragment
         android:id="@+id/manageAccountFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.ManageAccountFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.ManageAccountFragment"/>
     <fragment
         android:id="@+id/privateKeysFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.privatekeys.PrivateKeysFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.privatekeys.PrivateKeysFragment"/>
      <fragment
         android:id="@+id/publicKeysFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.publickeys.PublicKeysFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.publickeys.PublicKeysFragment"/>
     <fragment
         android:id="@+id/evmAddressFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.evmaddress.EvmAddressFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.evmaddress.EvmAddressFragment"/>
     <fragment
         android:id="@+id/recoveryPhraseFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.recoveryphrase.RecoveryPhraseFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.recoveryphrase.RecoveryPhraseFragment"/>
     <fragment
         android:id="@+id/evmPrivateKeyFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.evmprivatekey.EvmPrivateKeyFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.evmprivatekey.EvmPrivateKeyFragment"/>
     <fragment
         android:id="@+id/showExtendedKeyFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.showextendedkey.ShowExtendedKeyFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.showextendedkey.ShowExtendedKeyFragment"/>
     <fragment
         android:id="@+id/backupKeyFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.backupkey.BackupKeyFragment"/>
+        android:name="com.wikicious.app.modules.manageaccount.backupkey.BackupKeyFragment"/>
     <fragment
         android:id="@+id/backupConfirmationKeyFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.backupconfirmkey.BackupConfirmKeyFragment" />
+        android:name="com.wikicious.app.modules.manageaccount.backupconfirmkey.BackupConfirmKeyFragment" />
     <fragment
         android:id="@+id/backupLocalFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.backuplocal.BackupLocalFragment"/>
+        android:name="com.wikicious.app.modules.backuplocal.BackupLocalFragment"/>
     <fragment
         android:id="@+id/btcBlockchainRestoreSourceInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.BtcBlockchainRestoreSourceInfoFragment"/>
+        android:name="com.wikicious.app.modules.info.BtcBlockchainRestoreSourceInfoFragment"/>
     <fragment
         android:id="@+id/evmBlockchainSyncModeInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.EvmBlockchainSyncModeInfoFragment"/>
+        android:name="com.wikicious.app.modules.info.EvmBlockchainSyncModeInfoFragment"/>
      <fragment
         android:id="@+id/transactionLockTimeInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.TransactionLockTimeInfoFragment"/>
+        android:name="com.wikicious.app.modules.info.TransactionLockTimeInfoFragment"/>
     <fragment
         android:id="@+id/transactionDoubleSpendInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.TransactionDoubleSpendInfoFragment"/>
+        android:name="com.wikicious.app.modules.info.TransactionDoubleSpendInfoFragment"/>
     <fragment
         android:id="@+id/securitySettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.security.SecuritySettingsFragment"/>
+        android:name="com.wikicious.app.modules.settings.security.SecuritySettingsFragment"/>
     <fragment
         android:id="@+id/blockchainSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.blockchainsettings.BlockchainSettingsFragment"/>
+        android:name="com.wikicious.app.modules.blockchainsettings.BlockchainSettingsFragment"/>
     <fragment
         android:id="@+id/autoLockIntervalsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.security.autolock.AutoLockIntervalsFragment" />
+        android:name="com.wikicious.app.modules.settings.security.autolock.AutoLockIntervalsFragment" />
     <fragment
         android:id="@+id/backupManagerFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.backuplocal.fullbackup.BackupManagerFragment"/>
+        android:name="com.wikicious.app.modules.backuplocal.fullbackup.BackupManagerFragment"/>
     <fragment
         android:id="@+id/faqListFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.faq.FaqListFragment"
+        android:name="com.wikicious.app.modules.settings.faq.FaqListFragment"
         android:label="@string/Settings_Faq"/>
     <fragment
         android:id="@+id/academyFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.guides.GuidesFragment"
+        android:name="com.wikicious.app.modules.settings.guides.GuidesFragment"
         android:label="@string/Guides_Title" />
     <fragment
         android:id="@+id/appearanceFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.appearance.AppearanceFragment" />
+        android:name="com.wikicious.app.modules.settings.appearance.AppearanceFragment" />
     <fragment
         android:id="@+id/baseCurrencySettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.basecurrency.BaseCurrencySettingsFragment" />
+        android:name="com.wikicious.app.modules.basecurrency.BaseCurrencySettingsFragment" />
     <fragment
         android:id="@+id/personalSupportFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.support.PersonalSupportFragment" />
+        android:name="com.wikicious.app.modules.settings.support.PersonalSupportFragment" />
     <fragment
         android:id="@+id/languageSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.language.LanguageSettingsFragment" />
+        android:name="com.wikicious.app.modules.settings.language.LanguageSettingsFragment" />
     <fragment
         android:id="@+id/termsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.terms.TermsFragment"/>
+        android:name="com.wikicious.app.modules.settings.terms.TermsFragment"/>
     <fragment
         android:id="@+id/aboutAppFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.about.AboutFragment"/>
+        android:name="com.wikicious.app.modules.settings.about.AboutFragment"/>
     <fragment
         android:id="@+id/experimentalFeaturesFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.experimental.ExperimentalFeaturesFragment"/>
+        android:name="com.wikicious.app.modules.settings.experimental.ExperimentalFeaturesFragment"/>
     <fragment
         android:id="@+id/timeLockFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.experimental.timelock.TimeLockFragment"/>
+        android:name="com.wikicious.app.modules.settings.experimental.timelock.TimeLockFragment"/>
     <fragment
         android:id="@+id/metricsPageFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.metricspage.MetricsPageFragment" />
+        android:name="com.wikicious.app.modules.market.metricspage.MetricsPageFragment" />
     <fragment
         android:id="@+id/coinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.CoinFragment" >
+        android:name="com.wikicious.app.modules.coin.CoinFragment" >
         <deepLink
             app:action="android.intent.action.VIEW"
             app:uri="unstoppable://coin-page?uid={coinUid}" />
     </fragment>
     <fragment
         android:id="@+id/technicalIndicatorsDetailsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.technicalindicators.TechnicalIndicatorsDetailsFragment" />
+        android:name="com.wikicious.app.modules.coin.technicalindicators.TechnicalIndicatorsDetailsFragment" />
     <fragment
         android:id="@+id/indicatorsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.indicators.IndicatorsFragment" />
+        android:name="com.wikicious.app.modules.coin.indicators.IndicatorsFragment" />
     <fragment
         android:id="@+id/indicatorSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.indicators.IndicatorSettingsFragment" />
+        android:name="com.wikicious.app.modules.coin.indicators.IndicatorSettingsFragment" />
     <fragment
         android:id="@+id/activateSubscription"
-        android:name="io.horizontalsystems.bankwallet.modules.subscription.ActivateSubscriptionFragment" />
+        android:name="com.wikicious.app.modules.subscription.ActivateSubscriptionFragment" />
     <fragment
         android:id="@+id/subscriptionInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.subscription.SubscriptionInfoFragment" />
+        android:name="com.wikicious.app.modules.subscription.SubscriptionInfoFragment" />
     <fragment
         android:id="@+id/coinAnalyticsInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.CoinAnalyticsInfoFragment" />
+        android:name="com.wikicious.app.modules.info.CoinAnalyticsInfoFragment" />
     <fragment
         android:id="@+id/overallScoreInfoFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.OverallScoreInfoFragment" />
+        android:name="com.wikicious.app.modules.info.OverallScoreInfoFragment" />
     <fragment
         android:id="@+id/coinMajorHoldersFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.majorholders.CoinMajorHoldersFragment" />
+        android:name="com.wikicious.app.modules.coin.majorholders.CoinMajorHoldersFragment" />
     <fragment
         android:id="@+id/coinRankFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.ranks.CoinRankFragment" />
+        android:name="com.wikicious.app.modules.coin.ranks.CoinRankFragment" />
     <fragment
         android:id="@+id/coinTreasuriesFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.treasuries.CoinTreasuriesFragment" />
+        android:name="com.wikicious.app.modules.coin.treasuries.CoinTreasuriesFragment" />
     <fragment
         android:id="@+id/coinAuditsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.audits.CoinAuditsFragment" />
+        android:name="com.wikicious.app.modules.coin.audits.CoinAuditsFragment" />
     <fragment
         android:id="@+id/coinInvestmentsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.investments.CoinInvestmentsFragment" />
+        android:name="com.wikicious.app.modules.coin.investments.CoinInvestmentsFragment" />
     <fragment
         android:id="@+id/coinReportsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.reports.CoinReportsFragment" />
+        android:name="com.wikicious.app.modules.coin.reports.CoinReportsFragment" />
     <fragment
         android:id="@+id/setPinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.SetPinFragment" />
+        android:name="com.wikicious.app.modules.pin.SetPinFragment" />
     <fragment
         android:id="@+id/editPinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.EditPinFragment" />
+        android:name="com.wikicious.app.modules.pin.EditPinFragment" />
     <fragment
         android:id="@+id/setDuressPinIntroFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.SetDuressPinIntroFragment" />
+        android:name="com.wikicious.app.modules.pin.SetDuressPinIntroFragment" />
     <fragment
         android:id="@+id/setDuressPinSelectAccounts"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.SetDuressPinSelectAccountsFragment" />
+        android:name="com.wikicious.app.modules.pin.SetDuressPinSelectAccountsFragment" />
     <fragment
         android:id="@+id/setDuressPinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.SetDuressPinFragment" />
+        android:name="com.wikicious.app.modules.pin.SetDuressPinFragment" />
     <fragment
         android:id="@+id/editDuressPinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.EditDuressPinFragment" />
+        android:name="com.wikicious.app.modules.pin.EditDuressPinFragment" />
     <fragment
         android:id="@+id/confirmPinFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.pin.ConfirmPinFragment" />
+        android:name="com.wikicious.app.modules.pin.ConfirmPinFragment" />
     <fragment
         android:id="@+id/releaseNotesFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.releasenotes.ReleaseNotesFragment" />
+        android:name="com.wikicious.app.modules.releasenotes.ReleaseNotesFragment" />
     <fragment
         android:id="@+id/markdownFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.markdown.MarkdownFragment"/>
+        android:name="com.wikicious.app.modules.markdown.MarkdownFragment"/>
     <fragment
         android:id="@+id/addTokenFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.addtoken.AddTokenFragment"/>
+        android:name="com.wikicious.app.modules.addtoken.AddTokenFragment"/>
     <fragment
         android:id="@+id/swapFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.SwapMainFragment"
+        android:name="com.wikicious.app.modules.swap.SwapMainFragment"
         android:label="@string/Swap" />
     <fragment
         android:id="@+id/swapApproveFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.approve.SwapApproveFragment" />
+        android:name="com.wikicious.app.modules.swap.approve.SwapApproveFragment" />
     <fragment
         android:id="@+id/uniswapConfirmationFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.confirmation.uniswap.UniswapConfirmationFragment"/>
+        android:name="com.wikicious.app.modules.swap.confirmation.uniswap.UniswapConfirmationFragment"/>
     <fragment
         android:id="@+id/oneInchConfirmationFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.confirmation.oneinch.OneInchSwapConfirmationFragment"/>
+        android:name="com.wikicious.app.modules.swap.confirmation.oneinch.OneInchSwapConfirmationFragment"/>
     <fragment
         android:id="@+id/swapApproveConfirmationFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.approve.confirmation.SwapApproveConfirmationFragment"/>
+        android:name="com.wikicious.app.modules.swap.approve.confirmation.SwapApproveConfirmationFragment"/>
     <fragment
         android:id="@+id/uniswapSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.settings.uniswap.UniswapSettingsFragment"
+        android:name="com.wikicious.app.modules.swap.settings.uniswap.UniswapSettingsFragment"
         />
     <fragment
         android:id="@+id/oneinchSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.settings.oneinch.OneInchSettingsFragment"
+        android:name="com.wikicious.app.modules.swap.settings.oneinch.OneInchSettingsFragment"
         />
     <fragment
         android:id="@+id/marketSearchFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.search.MarketSearchFragment"/>
+        android:name="com.wikicious.app.modules.market.search.MarketSearchFragment"/>
     <fragment
         android:id="@+id/marketTopPlatformsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.topplatforms.TopPlatformsFragment"/>
+        android:name="com.wikicious.app.modules.market.topplatforms.TopPlatformsFragment"/>
     <fragment
         android:id="@+id/marketPlatformFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.platform.MarketPlatformFragment">
+        android:name="com.wikicious.app.modules.market.platform.MarketPlatformFragment">
         <deepLink
             app:action="android.intent.action.VIEW"
             app:uri="unstoppable://top-platforms?uid={platformUid}&amp;title={platformName}" />
     </fragment>
     <fragment
         android:id="@+id/marketAdvancedSearchFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.filters.MarketFiltersFragment"/>
+        android:name="com.wikicious.app.modules.market.filters.MarketFiltersFragment"/>
     <fragment
         android:id="@+id/blockchainsSelectorFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.filters.BlockchainsSelectorFragment"/>
+        android:name="com.wikicious.app.modules.market.filters.BlockchainsSelectorFragment"/>
     <fragment
         android:id="@+id/marketTopCoinsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.topcoins.MarketTopCoinsFragment"/>
+        android:name="com.wikicious.app.modules.market.topcoins.MarketTopCoinsFragment"/>
     <fragment
         android:id="@+id/marketTopNftCollectionsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.topnftcollections.TopNftCollectionsFragment"/>
+        android:name="com.wikicious.app.modules.market.topnftcollections.TopNftCollectionsFragment"/>
     <fragment
         android:id="@+id/marketCategoryFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.category.MarketCategoryFragment"/>
+        android:name="com.wikicious.app.modules.market.category.MarketCategoryFragment"/>
     <fragment
         android:id="@+id/marketAdvancedSearchResultsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.filtersresult.MarketFiltersResultsFragment"/>
+        android:name="com.wikicious.app.modules.market.filtersresult.MarketFiltersResultsFragment"/>
     <fragment
         android:id="@+id/createAccountFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.createaccount.CreateAccountFragment" />
+        android:name="com.wikicious.app.modules.createaccount.CreateAccountFragment" />
     <fragment
         android:id="@+id/restoreAccountFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.restoreaccount.RestoreAccountFragment" />
+        android:name="com.wikicious.app.modules.restoreaccount.RestoreAccountFragment" />
     <fragment
         android:id="@+id/importCexAccountFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.importcexaccount.ImportCexAccountFragment" />
+        android:name="com.wikicious.app.modules.importcexaccount.ImportCexAccountFragment" />
     <fragment
         android:id="@+id/importWalletFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.importwallet.ImportWalletFragment" />
+        android:name="com.wikicious.app.modules.importwallet.ImportWalletFragment" />
     <fragment
         android:id="@+id/restoreLocalFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.restorelocal.RestoreLocalFragment" />
+        android:name="com.wikicious.app.modules.restorelocal.RestoreLocalFragment" />
     <fragment
         android:id="@+id/watchAddressFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.watchaddress.WatchAddressFragment" />
+        android:name="com.wikicious.app.modules.watchaddress.WatchAddressFragment" />
     <fragment
         android:id="@+id/selectBlockchainsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.watchaddress.selectblockchains.SelectBlockchainsFragment" />
+        android:name="com.wikicious.app.modules.watchaddress.selectblockchains.SelectBlockchainsFragment" />
     <fragment
         android:id="@+id/zcashConfigure"
-        android:name="io.horizontalsystems.bankwallet.modules.zcashconfigure.ZcashConfigure"/>
+        android:name="com.wikicious.app.modules.zcashconfigure.ZcashConfigure"/>
     <fragment
         android:id="@+id/receiveFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.receive.address.ReceiveAddressFragment"/>
+        android:name="com.wikicious.app.modules.receive.address.ReceiveAddressFragment"/>
     <fragment
         android:id="@+id/receiveTokenSelectFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.receivemain.ReceiveTokenSelectFragment" />
+        android:name="com.wikicious.app.modules.receivemain.ReceiveTokenSelectFragment" />
     <fragment
         android:id="@+id/receiveNetworkSelectFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.receivemain.NetworkSelectFragment"/>
+        android:name="com.wikicious.app.modules.receivemain.NetworkSelectFragment"/>
     <fragment
         android:id="@+id/receiveBchAddressTypeSelectFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.receivemain.BchAddressTypeSelectFragment"/>
+        android:name="com.wikicious.app.modules.receivemain.BchAddressTypeSelectFragment"/>
     <fragment
         android:id="@+id/receiveDerivationSelectFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.receivemain.DerivationSelectFragment"/>
+        android:name="com.wikicious.app.modules.receivemain.DerivationSelectFragment"/>
     <fragment
         android:id="@+id/evmNetworkFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.evmnetwork.EvmNetworkFragment"
+        android:name="com.wikicious.app.modules.evmnetwork.EvmNetworkFragment"
         android:label="EvmNetworkFragment" />
     <fragment
         android:id="@+id/solanaNetworkFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.solananetwork.SolanaNetworkFragment"
+        android:name="com.wikicious.app.modules.solananetwork.SolanaNetworkFragment"
         android:label="SolanaNetworkFragment" />
     <fragment
         android:id="@+id/btcBlockchainSettingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.btcblockchainsettings.BtcBlockchainSettingsFragment"/>
+        android:name="com.wikicious.app.modules.btcblockchainsettings.BtcBlockchainSettingsFragment"/>
     <fragment
         android:id="@+id/tvlFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.market.tvl.TvlFragment" />
+        android:name="com.wikicious.app.modules.market.tvl.TvlFragment" />
     <fragment
         android:id="@+id/nftsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.nft.holdings.NftHoldingsFragment" />
+        android:name="com.wikicious.app.modules.nft.holdings.NftHoldingsFragment" />
     <fragment
         android:id="@+id/nftAssetFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.nft.asset.NftAssetFragment" />
+        android:name="com.wikicious.app.modules.nft.asset.NftAssetFragment" />
     <fragment
         android:id="@+id/nftSendFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.nft.send.SendNftFragment" />
+        android:name="com.wikicious.app.modules.nft.send.SendNftFragment" />
     <fragment
         android:id="@+id/nftCollectionFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.nft.collection.NftCollectionFragment">
+        android:name="com.wikicious.app.modules.nft.collection.NftCollectionFragment">
         <deepLink
             app:action="android.intent.action.VIEW"
             app:uri="unstoppable://nft-collection?uid={collectionUid}" />
     </fragment>
     <fragment
         android:id="@+id/sendXFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.send.SendFragment" />
+        android:name="com.wikicious.app.modules.send.SendFragment" />
     <fragment
         android:id="@+id/sendTokenSelectFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.sendtokenselect.SendTokenSelectFragment" />
+        android:name="com.wikicious.app.modules.sendtokenselect.SendTokenSelectFragment" />
     <fragment
         android:id="@+id/swapTokenSelectFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.swaptokenselect.SwapTokenSelectFragment" />
+        android:name="com.wikicious.app.modules.swaptokenselect.SwapTokenSelectFragment" />
     <fragment
         android:id="@+id/sendConfirmation"
-        android:name="io.horizontalsystems.bankwallet.modules.send.SendConfirmationFragment" />
+        android:name="com.wikicious.app.modules.send.SendConfirmationFragment" />
     <fragment
         android:id="@+id/feePriorityInfo"
-        android:name="io.horizontalsystems.bankwallet.modules.info.FeePriorityInfoFragment" />
+        android:name="com.wikicious.app.modules.info.FeePriorityInfoFragment" />
     <fragment
         android:id="@+id/contactsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.contacts.ContactsFragment"/>
+        android:name="com.wikicious.app.modules.contacts.ContactsFragment"/>
     <fragment
         android:id="@+id/chooseContact"
-        android:name="io.horizontalsystems.bankwallet.modules.contacts.ChooseContactFragment"/>
+        android:name="com.wikicious.app.modules.contacts.ChooseContactFragment"/>
     <fragment
         android:id="@+id/statusInfoDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.info.TransactionStatusInfoFragment" />
+        android:name="com.wikicious.app.modules.info.TransactionStatusInfoFragment" />
     <fragment
         android:id="@+id/selectSwapCoinDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.swap.coinselect.SelectSwapCoinFragment" />
+        android:name="com.wikicious.app.modules.swap.coinselect.SelectSwapCoinFragment" />
     <fragment
         android:id="@+id/tokenBalanceFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.balance.token.TokenBalanceFragment" />
+        android:name="com.wikicious.app.modules.balance.token.TokenBalanceFragment" />
     <fragment
         android:id="@+id/cexAssetFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.balance.cex.asset.CexAssetFragment" />
+        android:name="com.wikicious.app.modules.balance.cex.asset.CexAssetFragment" />
     <dialog
         android:id="@+id/wcErrorNoAccountFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.WCErrorNoAccountFragment" />
+        android:name="com.wikicious.app.modules.walletconnect.WCErrorNoAccountFragment" />
     <dialog
         android:id="@+id/wcAccountTypeNotSupportedDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.WCAccountTypeNotSupportedDialog" />
+        android:name="com.wikicious.app.modules.walletconnect.WCAccountTypeNotSupportedDialog" />
     <dialog
         android:id="@+id/contactOptionsDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.settings.about.ContactOptionsDialog" />
+        android:name="com.wikicious.app.modules.settings.about.ContactOptionsDialog" />
     <dialog
         android:id="@+id/backupRequiredDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.manageaccount.dialogs.BackupRequiredDialog" />
+        android:name="com.wikicious.app.modules.manageaccount.dialogs.BackupRequiredDialog" />
     <dialog
         android:id="@+id/backupRecoveryPhraseDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.backupalert.BackupRecoveryPhraseDialog" />
+        android:name="com.wikicious.app.modules.backupalert.BackupRecoveryPhraseDialog" />
     <dialog
         android:id="@+id/errorDisplayDialogFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.info.ErrorDisplayDialogFragment" />
+        android:name="com.wikicious.app.modules.info.ErrorDisplayDialogFragment" />
     <dialog
         android:id="@+id/indicatorsAlertDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.coin.indicators.IndicatorsAlertDialog" />
+        android:name="com.wikicious.app.modules.coin.indicators.IndicatorsAlertDialog" />
     <dialog
         android:id="@+id/syncErrorDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.syncerror.SyncErrorDialog" />
+        android:name="com.wikicious.app.modules.syncerror.SyncErrorDialog" />
     <dialog
         android:id="@+id/unlinkConfirmationDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.unlinkaccount.UnlinkAccountDialog" />
+        android:name="com.wikicious.app.modules.unlinkaccount.UnlinkAccountDialog" />
     <dialog
         android:id="@+id/feeSettingsInfoDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.evmfee.FeeSettingsInfoDialog" />
+        android:name="com.wikicious.app.modules.evmfee.FeeSettingsInfoDialog" />
     <dialog
         android:id="@+id/proUsersInfoDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.profeatures.yakauthorization.ProUsersInfoDialog" />
+        android:name="com.wikicious.app.modules.profeatures.yakauthorization.ProUsersInfoDialog" />
     <dialog
         android:id="@+id/proUsersActivateDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.profeatures.yakauthorization.ProUsersActivateDialog" />
+        android:name="com.wikicious.app.modules.profeatures.yakauthorization.ProUsersActivateDialog" />
     <dialog
         android:id="@+id/confirmDeleteAllPairingsDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.pairing.ConfirmDeleteAllPairingsDialog" />
+        android:name="com.wikicious.app.modules.walletconnect.pairing.ConfirmDeleteAllPairingsDialog" />
     <dialog
         android:id="@+id/configuredTokenInfo"
-        android:name="io.horizontalsystems.bankwallet.modules.configuredtoken.ConfiguredTokenInfoDialog" />
+        android:name="com.wikicious.app.modules.configuredtoken.ConfiguredTokenInfoDialog" />
     <dialog
         android:id="@+id/periodSelectDialog"
-        android:name="io.horizontalsystems.bankwallet.ui.compose.components.PeriodSelectDialog" />
+        android:name="com.wikicious.app.ui.compose.components.PeriodSelectDialog" />
     <dialog
         android:id="@+id/notActiveAccountDialog"
-        android:name="io.horizontalsystems.bankwallet.modules.receive.address.NotActiveWarningDialog" />
+        android:name="com.wikicious.app.modules.receive.address.NotActiveWarningDialog" />
 </navigation>

@@ -5,14 +5,14 @@
     app:startDestination="@+id/wcListFragment">
     <fragment
         android:id="@+id/wcListFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.list.WCListFragment"/>
+        android:name="com.wikicious.app.modules.walletconnect.list.WCListFragment"/>
     <fragment
         android:id="@+id/wc2SessionFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.session.v2.WC2SessionFragment"/>
+        android:name="com.wikicious.app.modules.walletconnect.session.v2.WC2SessionFragment"/>
     <fragment
         android:id="@+id/wc2RequestFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.request.WC2RequestFragment"/>
+        android:name="com.wikicious.app.modules.walletconnect.request.WC2RequestFragment"/>
     <fragment
         android:id="@+id/wc2PairingsFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.walletconnect.pairing.WC2PairingsFragment"/>
+        android:name="com.wikicious.app.modules.walletconnect.pairing.WC2PairingsFragment"/>
 </navigation>

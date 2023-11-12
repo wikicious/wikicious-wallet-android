@@ -1,0 +1,25 @@
+package com.wikicious.app.modules.pin
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.stringResource
+import com.wikicious.app.R
+import com.wikicious.app.core.BaseComposeFragment
+import com.wikicious.app.modules.pin.ui.PinSet
+import com.wikicious.app.ui.compose.ComposeAppTheme
+import io.horizontalsystems.core.findNavController
+
+class EditDuressPinFragment : BaseComposeFragment() {
+
+    @Composable
+    override fun GetContent() {
+        ComposeAppTheme {
+            PinSet(
+                title = stringResource(id = R.string.EditDuressPin_Title),
+                description = stringResource(id = R.string.EditDuressPin_Description),
+                dismissWithSuccess = { findNavController().popBackStack() },
+                onBackPress = { findNavController().popBackStack() },
+                forDuress = true
+            )
+        }
+    }
+}
