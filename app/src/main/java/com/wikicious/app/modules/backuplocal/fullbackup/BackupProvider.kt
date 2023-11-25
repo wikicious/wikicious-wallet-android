@@ -263,7 +263,7 @@ class BackupProvider(
             blockchainSettingsStorage.save(settings.solanaSyncSource.name, BlockchainType.Solana)
         }
 
-        if (settings.appIcon != (localStorage.appIcon ?: AppIcon.Main).titleText) {
+        if (settings.appIcon != (localStorage.appIcon ?: AppIcon.Dark).titleText) {
             AppIcon.fromTitle(settings.appIcon)?.let { appIconService.setAppIcon(it) }
         }
     }
@@ -465,7 +465,7 @@ class BackupProvider(
 
         val settings = Settings(
             balanceViewType = balanceViewTypeManager.balanceViewTypeFlow.value,
-            appIcon = localStorage.appIcon?.titleText ?: AppIcon.Main.titleText,
+            appIcon = localStorage.appIcon?.titleText ?: AppIcon.Dark.titleText,
             currentTheme = themeService.optionsFlow.value.selected,
             chartIndicatorsEnabled = localStorage.chartIndicatorsEnabled,
             chartIndicators = chartIndicators,
