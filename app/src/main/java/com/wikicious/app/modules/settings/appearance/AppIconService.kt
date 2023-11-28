@@ -13,7 +13,7 @@ class AppIconService(private val localStorage: ILocalStorage) {
     private val appIcons = AppIcon.values().asList()
 
     private val _optionsFlow = MutableStateFlow(
-        Select(localStorage.appIcon ?: AppIcon.Dark, appIcons)
+        Select(localStorage.appIcon ?: AppIcon.Main, appIcons)
     )
     val optionsFlow = _optionsFlow.asStateFlow()
 
